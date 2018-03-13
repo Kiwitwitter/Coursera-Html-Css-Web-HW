@@ -5,8 +5,7 @@
 }
 
 body{
-  font-family: Arial, helvetica, sans-serif;
-  font-size: 125%;
+  font-family: helvetica, sans-serif;
 }
 
 h1 {
@@ -23,26 +22,25 @@ h1 {
 
 .col-1, .col-2, .col-3 {
     width: 32.5%;
-    display: inline-block;
     background-color: darkgray;
+    display: inline-block;
     border: 1px solid black;
     margin-bottom: 10px;
 }
 
 .col-title{
-  margin-right: 0;
-  margin-left: auto;
+  float:right;
   padding: 3px;
   border: 1px solid black;
   width: 130px;
   text-align: right;
   overflow: hidden;
-  background-color: red;
   font-size: 125%;
 }
 
 .content{
     padding: 5px;
+    clear:right;
 }
 
 .pink{
