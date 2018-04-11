@@ -41,7 +41,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (var i = 0; i < names.length; i++) {
+for (var key = 0; key < names.length; key++) {
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
